@@ -3,6 +3,7 @@
 
           //Get a reference to the link on the page
           // with an id of "mylink"
+          var a = document.getElementByClassName("mylink");
           var a = document.getElementById("mylink");
 
           //Set code to run when the link is clicked
@@ -10,7 +11,7 @@
           a.onclick = function() {
 
             // Your code here...
-
+            window.location.href = "https://mywebsite.com"
             //If you don't want the link to actually 
             // redirect the browser to another page,
             // "google.com" in our example here, then
